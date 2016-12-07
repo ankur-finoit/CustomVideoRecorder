@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bubble">
+
+    <TextView
+        android:id="@+id/five_sec_item"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5s"
+        android:paddingTop="2dp"
+        android:paddingRight="3dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/ten_sec_item"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:text="10s"
+        android:layout_toRightOf="@id/five_sec_item"
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="5dp"/>
+
+</RelativeLayout>

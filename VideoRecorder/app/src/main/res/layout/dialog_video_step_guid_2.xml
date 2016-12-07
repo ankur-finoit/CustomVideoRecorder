@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_large"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center"
+    android:paddingTop="@dimen/padding_large_xx"
+    android:paddingBottom="@dimen/padding_large_xx"
+    android:paddingLeft="@dimen/padding_large_x1"
+    android:paddingRight="@dimen/padding_large_x1"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/black"
+       android:textSize="@dimen/text_size_large_x"
+       android:text="@string/selling_tips"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_small_xx"
+        android:textColor="@color/following_unchecked_radio_btn_color"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/step_two_third"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/padding_large_xx"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/say_hi"/>
+
+ <Button
+     android:id="@+id/btn_send_offer"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="@dimen/padding_large_xxx"
+     android:layout_marginLeft="@dimen/padding_large_xxx"
+     android:layout_marginRight="@dimen/padding_large_xxx"
+     android:padding="@dimen/padding_medium_x"
+     android:textAllCaps="true"
+     android:background="@drawable/bg_buy_btn"
+     android:textSize="@dimen/text_size_medium"
+     android:text="@string/ok"
+     android:textColor="@color/white" />
+
+
+
+</LinearLayout>

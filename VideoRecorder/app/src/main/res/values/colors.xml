@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3DD600</color>
+    <color name="colorPrimaryDark">#36C100</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#727272</color>
+
+    <color name="gray_text">#808080</color>
+
+    <color name="of_white">#FAFAFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent_black">#858585</color>
+    <color name="transparent_statusbar">#85858585</color>
+    <color name="green">#008000</color>
+    <color name="gray">#808080</color>
+    <color name="tag_color">#8C888C</color>
+    <color name="facebook">#3b5998</color>
+    <color name="green_button">#46DE60</color>
+    <color name="transparent_green">#8c72f461</color>
+    <color name="green_navigation">#47e742</color>
+    <color name="font">#47e742</color>
+    <color name="edit_text_font">#999999</color>
+    <color name="apptheme_color">#39a535</color>
+    <color name="username_and_price_color">#35DA2E</color>
+    <color name="city_country_time_and_tags_color">#b5b5b7</color>
+    <color name="login_and_register_unckecked_color">#32742d</color>
+    <color name="space_between_items_color">#F4F7FC</color>
+    <color name="profile_header">#E7EAEF</color>
+    <color name="item_color">#484b4e</color>
+    <color name="divider_color">#E3E3E3</color>
+    <color name="time_color">#a9a9a9</color>
+    <color name="news_following_you_background_color">#e2e2e2</color>
+    <color name="you_checked_radio_btn_color">#484b4e</color>
+    <color name="following_unchecked_radio_btn_color">#c4c4c4</color>
+    <color name="following_checked_radio_btn_color">#484b4e</color>
+    <color name="you_unchecked_radio_btn_color">#c4c4c4</color>
+    <color name="comment_like_bought_color">#999999</color>
+    <color name="price_color">#161639</color>
+    <color name="spinner_text_color">#a8a8a8</color>
+    <color name="search_name_surname_text_color">#333333</color>
+    <color name="search_username_text_color">#999999</color>
+    <color name="swipe_background">#F74D00</color>
+    <color name="regarding_color">#a4a4a4</color>
+    <color name="time_inbox">#878787</color>
+    <color name="message_color">#858585</color>
+    <color name="message_gray_background">#f5f5f5</color>
+    <color name="message_text_black">#4d4d4d</color>
+    <color name="message_green_background">#1ED618</color>
+    <color name="time_message_color">#9a9a9a</color>
+    <color name="select_option_color">#6d6d6d</color>
+    <color name="text_how_it_works">#666666</color>
+    <color name="transparent_white">#8CFFFFFF</color>
+
+    <color name="underline_settings">#dbdbdb</color>
+    <color name="fb_twitter_instagram_color_background">#f2f2f2</color>
+    <color name="action_color">#404040</color>
+    <color name="edit_text_box">#E7EAEF</color>
+
+    <color name="spinnerItem">#aaaaaa</color>
+    <color name="editText">#aaaaaa</color>
+    <color name="buttonText">#eeeeee</color>
+    <color name="headerText">#eeeeee</color>
+
+
+    <!--changes-->
+    <color name="off_white">#E5E5E5</color>
+    <color name="bg_white">#F4F7FC</color>
+    <color name="green_action_button">#33D92F</color>
+    <color name="grey_color">#65686D</color>
+    <color name="light_grey">#E7EAEF</color>
+    <color name="lighter_white">#F4F7FC</color>
+    <color name="orange">#F64C00</color>
+
+
+    <color name="black_dark">#363636</color>
+    <color name="black_light">#464646</color>
+    <color name="gray_light">#EFF0F2</color>
+    <color name="off_gray">#C6C6C6</color>
+    <color name="light_black">#1E2832</color>
+    <color name="light_blue">#3D95CE</color>
+
+
+    <color name="grey_dark">#484b4e</color>
+    <color name="grey_light">#878787</color>
+    <color name="grey_extra_light">#a9a9a9</color>
+
+    <color name="transparency">#90000000</color>
+    <color name="button_text_color">#92979D</color>
+    <color name="yellow_text_view_background">#FFD213</color>
+    <color name="grey_text">#92969F</color>
+    <color name="black_transparent_ninty_percent">#19000000</color>
+    <color name="dark_saffron">#F74D00</color>
+    <color name="progress_bar_color">#FF0000</color>
+    <color name="progress_bar_background_color">#79F766</color>
+
+
+
+
+</resources>

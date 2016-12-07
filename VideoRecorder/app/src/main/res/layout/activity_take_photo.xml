@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.app.videorecorder.video.AspectFrameLayout
+            android:id="@+id/aspact_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.opengl.GLSurfaceView
+                android:id="@+id/cameraPreview_surfaceView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.app.videorecorder.video.AspectFrameLayout>
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="100sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/camera_controlls" />    <!-- Top menu -->
+
+    <TextView
+        android:id="@+id/record_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_record_video"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_medium_x"
+        android:paddingLeft="@dimen/padding_large_xx"
+        android:paddingRight="@dimen/padding_large_xx"
+        android:paddingTop="@dimen/padding_medium_x"
+        android:text="Record Video"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <com.app.videorecorder.StatusBarIndicator
+        android:id="@+id/statusBarIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radio_group_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/padding_medium_x"
+        android:src="@drawable/ic_camera_done"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@id/radio_group_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/timer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_camera_timer" />
+
+        <ImageView
+            android:id="@+id/capture"
+            android:layout_width="@dimen/search_product_width"
+            android:layout_height="@dimen/search_product_width"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:longClickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_camera_norma" />
+
+        <ImageView
+            android:id="@+id/stop_capture"
+            android:layout_width="@dimen/search_product_width"
+            android:layout_height="@dimen/search_product_width"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:longClickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_camera_orange"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/face_camera"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_camera_rotate" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

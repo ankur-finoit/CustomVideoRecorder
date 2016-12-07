@@ -1,0 +1,596 @@
+<resources>
+    <string name="app_name">Video Recorder</string>
+
+    <!--GCM Sender Id-->
+    <string name="gcm_sender_id">157120645554</string>
+
+    <!-- PROFILE TABS -->
+
+    <string name="reviews">reviews</string>
+    <string name="followers">followers</string>
+
+    <!-- PROFILE SPINNER -->
+    <string name="selling">selling</string>
+    <string name="selling_cap">Selling</string>
+    <string name="bought">Bought</string>
+    <string name="sold">Sold</string>
+    <string name="buy">Buy</string>
+    <string name="followers_menu">Followers</string>
+    <string name="following_menu">Following</string>
+    <string name="follow">Follow</string>
+    <string-array name="options_items_array">
+        <item></item>
+        <item>Selling</item>
+        <item>Bought</item>
+        <item>Sold</item>
+    </string-array>
+
+    <string name="my_items">My items</string>
+
+    <!-- ALERT DIALOGS -->
+    <string name="bold_dialog">Take a video of your product.</string>
+    <string name="dialog_message">This is the first step to finish posting your item.</string>
+    <string name="accept_dialog">Accept</string>
+    <string name="buy_product_alert_dialog">You are about to buy this product. Please let us know how would you like it to be delivered to you?</string>
+    <string name="change_cover_alert">You are about to change your cover picture. Please let us know how would you like it to do?</string>
+    <string name="change_profile_alert">You are about to change your profile picture. Please let us know how would you like it to do?</string>
+    <string name="first_take_video">First take video</string>
+    <string name="take_multiple_clips_within_second">Take multiple clips within your 15 seconds of fame</string>
+    <string name="step_one_third">Step 1/3</string>
+    <string name="step_two_third">Step 2/3</string>
+    <string name="selling_tips">Selling Tips</string>
+    <string name="say_hi">1. Say Hi  2. Take multiple clips  3. Tell us about it</string>
+    <string name="take_multiple_clips">2. Take multiple clips</string>
+    <string name="tell_us_about_it">3. Tell us about it</string>
+    <string name="take_preview_image">Take preview image!</string>
+    <string name="this_is_third_step">This is the 3rd step</string>
+    <string name="swip_for_filters">Swipe for\nfilters</string>
+    <string name="record_video">STEP 1: RECORD VIDEO</string>
+
+
+    <!-- MESSAGES -->
+    <string name="confirm">Confirm</string>
+    <string name="decline">Decline</string>
+    <string name="input_tracking_code">Input Tracking Code Here</string>
+    <string name="movv_code">Input Movv Code Here</string>
+    <string name="select_option">Please select one of this two options</string>
+    <string name="shipping_info">Fill in shipping info</string>
+    <string name="address">Enter Address</string>
+    <string name="postal_number">Postal Number</string>
+    <string name="city">City</string>
+    <string name="add_address">Add Address</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="message_from_movv">You have purchased Nike item, please leave your review.</string>
+    <string name="rating_bar_string">Swipe to add stars.</string>
+    <string name="talk_and_arange_details">You can talk and arange the details below</string>
+    <string name="write_a_comment">   <i>say something nice...</i></string>
+
+    <!-- SETTINGS -->
+    <string name="street_settings">Street:</string>
+    <string name="post_code_settings">Post Code:</string>
+    <string name="Edit">Edit</string>
+    <string name="city_settings">City:</string>
+    <string name="state_settings">State:</string>
+    <string name="shared_address">Your Address Will Only Be Shared with a Seller \n Who Is Attempting to Ship You an Item</string>
+    <string name="new_password">New Password</string>
+    <string name="retype_password">Confirm Password</string>
+    <string name="email_settings">Email:</string>
+    <string name="password_different">Passwords don\'t match!</string>
+    <string name="how_it_works">How it works</string>
+    <string name="text_how_it_works">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. \n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="topic_title">Topic title:</string>
+    <string name="message_settings">Message:</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_address">Change Address</string>
+    <string name="how_does_this_work">How does this work</string>
+    <string name="report_a_problem">Report a problem</string>
+    <string name="arange_meeting">You can talk and arange the meet up below.</string>
+    <string name="edit_cover_image">Edit cover image</string>
+    <string name="account">Account</string>
+    <string name="edit_address">Edit</string>
+    <string name="push_notification">Push Notification</string>
+    <string name="connect">Connect with friends</string>
+    <string name="invite_facebook_friends">Invite Facebook Friends</string>
+    <string name="invite_from_contacts">Invite From Contacts</string>
+    <string name="setup_strip_acc">Setup your strip account</string>
+    <string name="support">Support</string>
+    <string name="how_does">How does this work</string>
+    <string name="report_problem">Report a problem</string>
+    <string name="logut">Log out</string>
+    <string name="logout">Log out</string>
+    <string name="tap_to_edit">Tap to edit</string>
+    <string name="choose_from_gallery">Choose from\ngallery</string>
+    <string name="take_new_profile_picture">Take new profile\npicture</string>
+    <string name="take_new_cover_picture">Take new cover\npicture</string>
+    <string name="log_out">Logout</string>
+
+    <!-- ACCOUNT -->
+    <string name="terms_conditions">By Signing in You Agree to Our Terms of Use and Privacy Policy</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="current_email">Current Email</string>
+    <string name="new_email">New Email</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="register_btn">Register</string>
+    <string name="login_btn">Login</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signup_small">Signup</string>
+    <string name="new_user_signup">Don\'t have an account?</string>
+
+    <string name="facebook_app_id">2072586246300932</string><!--1579695772285424</string>-->
+    <string name="not_post_on_facebook">Will Not Post on Facebook Unsolicited</string>
+    <string name="facebook_name"> Name</string>
+    <string name="message">, Choose Your Username</string>
+
+    <!-- UPLOAD PRODUCT -->
+    <string name="upload_new_image">Upload new image</string>
+    <string name="record_new_video">Record new video</string>
+    <string name="enter_title">Title</string>
+    <string name="enter_price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="auto_location">Auto location:</string>
+    <string name="select_tags">Tags</string>
+    <string name="name">Name</string>
+    <string name="brand">Brand</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="price_value">$0</string>
+
+
+    <!-- CAMERA (VIDEO) -->
+    <string name="record_button_name">Record Video</string>
+    <string name="upload_button_name">Upload Video</string>
+    <string name="title_activity_record_video">RecordVideo</string>
+    <string name="flash_auto">Auto</string>
+    <string name="flash_on">On</string>
+    <string name="flash_off">Off</string>
+    <string name="delete_last_segment">&lt; DELETE LAST SEGMENT</string>
+    <string name="delete_segment_tip">Press again to remove segment.</string>
+
+    <!--OFFER-->
+    <string name="send_offer">Send Offer</string>
+    <string name="offer">Offer</string>
+    <string name="meet">Meet</string>
+    <string name="ship">Ship</string>
+    <string name="must_off_atleast_fifty_percent">Must off at least 50% of asking price</string>
+    <string name="offer_added_ur_cart">Great! Offer is now in your cart</string>
+
+    <integer-array name="decimal_array" >
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+
+    <string-array name="search_item" >
+        <item>All</item>
+        <item>Bags</item>
+        <item>Books</item>
+        <item>Cars &amp; Motors</item>
+        <item>Clothes</item>
+        <item>Furniture</item>
+        <item>Games</item>
+        <item>Health &amp; Fitness</item>
+        <item>Home</item>
+        <item>Jewelry</item>
+        <item>Makeup</item>
+        <item>Movies/ books</item>
+        <item>Music</item>
+        <item>Shoes</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Transportation</item>
+        <item>Other</item>
+    </string-array>
+
+
+
+    <!-- PAYMENT -->
+
+    <string name="pay_with_card">Pay with a card</string>
+    <string name="payment">Payment</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="pay">Pay</string>
+    <string name="enter_card_number">Please enter card number.</string>
+    <string name="enter_expiry_date">Please enter card expiry date.</string>
+    <string name="enter_cvv_no">Please enter card cvv number.</string>
+    <string name="you_can_not_buy_ur_own_product">You cannot buy your own product!</string>
+
+    <string name="shipping_address_label">SHIPPING ADDRESS</string>
+    <string name="insert_card_info">INSERT CARD INFO</string>
+    <string name="discount_code">DISCOUNT CODE</string>
+    <string name="shipping_address">Click here to confirm/update\nyour shipping information</string>
+    <string name="address_payment">Address:</string>
+    <string name="postal_code_payment">Postal code:</string>
+    <string name="city_payment">City:</string>
+    <string name="state_payment">State</string>
+    <string name="country_payment">Country:</string>
+    <string name="card_number">1234 5678 1234 5678</string>
+    <string name="buy_item">Buy item!</string>
+    <string name="validation_errors">Validation Errors</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="save">Save</string>
+    <string name="cvc">CVC</string>
+    <string name="meet_in_person">Meet in Person</string>
+    <string name="shipp_it">Shipp It!</string>
+    <string name="strip_acc">STRIP ACCOUNT SETTINGS</string>
+    <string name="country_settings">Country :</string>
+    <string name="valid_card_details">The card details that you entered are valid!</string>
+    <string name="check_card">Check card</string>
+    <string name="card_number_error">"Card number that you entered is invalid"</string>
+    <string name="expiration_date_error">"The expiration date that you entered is invalid"</string>
+    <string name="cvv_error">"The cvv number that you entered is invalid"</string>
+    <string name="cvc_code_error">"The CVC code that you entered is invalid"</string>
+    <string name="card_details_error">"The card details that you entered are invalid"</string>
+    <string name="transcation_service">Transaction will be completed via Stripe</string>
+    <string name="s3_access_key">AKIAIHTO2VPHSB52AOJQ</string>
+    <string name="s3_secret">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</string>
+    <string name="s3_bucket">Movv files</string>
+
+    <!-- EMPTY TEXT -->
+    <string name="no_items">No items for selling.</string>
+    <string name="no_items_bought">No items bought.</string>
+    <string name="no_items_sold">No items sold.</string>
+    <string name="no_activity">This user has no activity yet.</string>
+    <string name="no_reviews">No reviews for this user.</string>
+    <string name="no_followers">This user doesnt have any followers.</string>
+    <string name="no_following">This user doesnt follow anyone.</string>
+    <string name="empty_list">List is empty</string>
+    <string name="empty_inbox">You have no messages.</string>
+    <string name="no_items_found">No items found.</string>
+    <string name="no_news">No news to display.</string>
+
+    <!-- TOAST (MESSAGES) -->
+    <string name="connection_error">No Internet connection!</string>
+    <string name="no_comments_yet">There is no comments yet!</string>
+    <string name="unable_to_get_file">Unable to get recorded video</string>
+    <string name="saving_video">Please wait, video is saving to your device...</string>
+    <string name="saving_preview_image">Please wait, image is saving to your device...</string>
+    <string name="registration_success">User registration was a success.</string>
+    <string name="registration_failed">Given email address or username is already in use, please try to login with your account!</string>
+    <string name="error_no_internet_connection">No internet connection !!</string>
+    <string name="uploading_video">Please wait, video is uploading...</string>
+    <string name="uploading_preview_image">Please wait, preview image is uploading...</string>
+    <string name="connect_stripe">You successfuly connected to Stripe!</string>
+    <string name="dialog_gps">You have to turn on GPS.</string>
+
+    <!-- NEWS -->
+    <string name="following">Following</string>
+    <string name="you">You</string>
+    <string name="following_radio_btn">FOLLOWING</string>
+    <string name="you_radio_btn">You</string>
+    <string name="frag_title">Activity</string>
+
+    <!-- VINE RECORD VIDEO -->
+    <string name="txt_start">Start</string>
+    <string name="txt_finish">Finish Activity</string>
+    <string name="txt_continue">Continue</string>
+    <string name="discard">Discard</string>
+    <string name="resolutionHigh">High Resolution</string>
+    <string name="resolutionMedium">Resolution Medium</string>
+    <string name="resolutionLow">Resolution Low</string>
+    <string name="press">Press</string>
+    <string name="finalizing">Finalizing</string>
+    <string name="wait">Wait</string>
+    <string name="stop">Stop</string>
+    <string name="errVideoTime">Error</string>
+    <string name="segment_progress"></string>
+    <string name="upload_progress"></string>
+    <string name="resume_button_name">Resume Upload</string>
+
+    <!-- OTHER -->
+    <string name="share"> Share</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="accept">ACCEPT</string>
+    <string name="update">Update</string>
+    <string name="write_comment">  Write new comment...</string>
+    <string name="first_comment">There Are No Comments yet. Why Not Be The First</string>
+    <string name="post">Post</string>
+    <string name="required">Required!</string>
+    <string name="too_short">Too Short!</string>
+    <string name="send_message">Send Message...</string>
+    <string name="send">Send</string>
+    <string name="regarding">regarding</string>
+    <string name="menu_settings">ds</string>
+    <string name="register_url">http://dev.flip.hr/movv/api/user-register/</string>
+    <string name="full_name">Full Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="ssn">Last 4 digits of SSN</string>
+    <string name="add_merchant_acc">Add Merchant Account</string>
+    <string name="recieving_address">Shipping + Recieving Address</string>
+    <string name="ok">OK</string>
+    <string name="separator">|</string>
+    <string name="monkey">\@</string>
+    <string name="old_password">Old Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_friend_request">Friend Request</string>
+    <string name="enter_new_tag">Enter new tag...</string>
+    <string name="done">DONE</string>
+    <string name="enter_tags">Enter tags:</string>
+    <string name="recently_used">Recently used</string>
+
+    <string name="preview">Preview</string>
+
+    <string name="item">item</string>
+    <string name="validationErrors">Validation Errors</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="change">Change</string>
+    <string name="invitation_code">Invitation code</string>
+    <string name="complete_your_profile">COMPLETE YOUR PROFILE</string>
+    <string name="sell_to_friends">Sell to friends</string>
+    <string name="share_txt">Don\'t forget to share it.</string>
+    <string name="image_load_failed">Failed</string>
+    <string name="terms_of_use">Terms Of Use</string>
+
+    <string name="subject">Subject*</string>
+    <string name="message_to_support">Message*</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="recorder_state_recording">Recording&#8230;</string>
+    <string name="recorder_state_min_recorded">Minimum video recorded.</string>
+    <string name="recorder_state_complete">Video Recording Complete.</string>
+    <string name="recorder_state_min_video_crossed">Recording and Minimum recording reached&#8230;</string>
+    <string name="recorder_state_press_to_record">Press to record&#8230;</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="processing">Processing&#8230;</string>
+    <string name="alert">Alert</string>
+    <string name="discard_video_msg">Would you like to discard recording?</string>
+    <string name="video_saved_path">Your video is saved at</string>
+    <string name="current_username">Current Username</string>
+    <string name="new_username">New Username</string>
+    <string name="edit_cover">EDIT COVER</string>
+    <string name="your_information">Your Information</string>
+    <string name="change_username">Change Username</string>
+    <string name="change_email">Change Email</string>
+    <string name="merchant_info">Merchant Info</string>
+    <string name="edit_merchant_account">Edit Merchant Account</string>
+    <string name="venmo_login">Login with Venmo</string>
+    <string name="connect_with_friends">Connect with Friends</string>
+    <string name="find_facebook_friends">Find Facebook Friends</string>
+    <string name="find_contact_friends">Find Contact Friends</string>
+    <string name="sign_out">Signout</string>
+    <string name="version">Version 1.03 Build 41</string>
+
+
+    <string name="search">Search</string>
+    <string name="find_closer_item">Find items closer to you.</string>
+    <string name="yes">Yes</string>
+    <string name="skip">Skip</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="cart">Cart</string>
+
+    <string name="please_wait">Please wait...</string>
+    <string name="video_uploding_msg">Uploading video, please wait...</string>
+    <string name="image_uploding_msg">Uploading image, please wait...</string>
+
+    <string name="email_address">E-Mail</string>
+    <string name="phone">Phone</string>
+    <string name="dateofbirth">Date of birth</string>
+    <string name="street_address">Street</string>
+    <string name="locality">Locality</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="region">Region</string>
+    <string name="merchant_account">Merchant Account</string>
+    <string name="venmo">Venmo</string>
+    <string name="powered_by">Powered by</string>
+    <string name="support_message">Message</string>
+
+
+    <string name="users">Users</string>
+    <string name="tags">Tags</string>
+    <string name="add_tags_product">Add Product Tags</string>
+    <string name="add_tags">Add Tags</string>
+    <string name="products">Products</string>
+    <string name="searching">Searching..</string>
+    <string name="see_more_users">See more users...</string>
+    <string name="see_more_tags">See more tags...</string>
+    <string name="see_more_products">See more products...</string>
+    <string name="see_less_users">See less users...</string>
+    <string name="see_less_tags">See less tags...</string>
+    <string name="see_less_products">See less products...</string>
+    <string name="posts">posts</string>
+    <string name="shipping_options">Shipping Options</string>
+    <string name="package_weight">Package Weight</string>
+    <string name="pay_for_shipping">Buyer pays for shipping</string>
+
+    <string name="user_name_prefix">\@</string>
+    <string name="hash_tag_prefix">\#</string>
+    <string name="doller">$</string>
+    <string name="no_comment_yet">No comments yet.</string>
+    <string name="be_the_first">Be the first to say</string>
+    <string name="something">something!</string>
+    <string name="account_number">Account No.</string>
+    <string name="routing_number">Routing No.</string>
+    <string name="comments">Comments</string>
+
+    <string name="view_more_comments">VIEW %s MORE EARLIER COMMENTS</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="saving_merchant_data">Saving merchant data.........</string>
+    <string name="merchant_details_loading">merchant details loading.....</string>
+    <string name="posting_comment">posting comment.......</string>
+    <string name="uploading_image">Uploading Image</string>
+
+    <string name="unliked">unliked</string>
+    <string name="liked">liked</string>
+
+    <string name="edit_item">Edit Item</string>
+    <string name="delete">Delete</string>
+
+
+    <!--Review Screen-->
+    <string name="msg_transaction_complete">You have completed the transaction!</string>
+    <string name="msg_leave_review">Please leave a review for</string>
+    <string name="msg_swipe_star">Swipe to add stars</string>
+    <string name="title_add_review">Add Review</string>
+    <string name="title_review">Reviews</string>
+    <string name="hint_write_review">Write review...</string>
+
+
+
+    <!--Support Center-->
+    <string name="support_center">Support Center</string>
+    <string name="ask_ques">Ask a question</string>
+    <string name="community_guidelines">Community Guidelines</string>
+    <string name="copyright_policy">Copyright Policy</string>
+    <string name="faq">FAQ</string>
+    <string name="mov_support">MOV Support</string>
+
+
+    <string name="enter_valid_email">Invalid Email Address!</string>
+    <string name="sell">Sell</string>
+    <string name="live">Live</string>
+    <string name="my_cart">My Cart</string>
+    <string name="comma">,</string>
+    <string name="dollar">$</string>
+    <string name="loading_comments">Loading comments.......</string>
+    <string name="accept_offer">Accept offer?</string>
+    <string name="reject">REJECT</string>
+    <string name="see_more_live_offers">See more live offers</string>
+    <string name="see_more_history_offers">See more history offers</string>
+    <string name="history">History</string>
+    <string name="see_less_live_offers">See less live offers</string>
+    <string name="see_less_history_offers">See less history offers</string>
+
+    <!--Delivery Options-->
+    <string name="lbs_0">0 - 0.5 lbs / $4</string>
+    <string name="lbs_3">0.5 - 3 lbs / $6</string>
+    <string name="lbs_10">3 - 10 lbs / $9</string>
+    <string name="lbs_20">10 - 20 lbs / $15</string>
+    <string name="lbs_70">20 - 70 lbs / $18</string>
+    <string name="lbs_more_than_70">>70 lbs</string>
+    <string name="accessories_etc">Accessories, hats &amp; beauty products</string>
+    <string name="purse_etc">Purse, shoes, clothing &amp; samll electonics</string>
+    <string name="coats_etc">Coats, bags, boots &amp; game consoles</string>
+    <string name="musical_instrument_etc">Musical instrument &amp; large electronics</string>
+    <string name="large_compact_item">Large compact item</string>
+    <string name="meet_in_person_etc">Meet in person, too large to ship</string>
+
+    <string name="tags_required">Tags Required, Please Add</string>
+    <string name="weight_required">Package Weight Required, Please Select</string>
+
+    <string name="loading_products_to_sell">Loading_products_to_sell</string>
+
+    <string name="slide_up">Slide up for details</string>
+    <string name="item_added_in_cart">Your item is in your cart</string>
+    
+    <string name="msg_copied">Message copied</string>
+    <string name="instagram_not_instralled">Instagram App is not installed</string>
+    <string name="link_copied">Link copied</string>
+
+
+
+    <!--CHAT-->
+    <string name="write_a_message">Write a message</string>
+    <string name="no_message_found">No message found!</string>
+    <string name="sending_message">Sending message...</string>
+    <string name="type_mov_code">Type Mov Code...</string>
+
+    <string name="no_live_items_toshow">No live offers available...</string>
+    <string name="no_history_items_toshow">No offer history available...</string>
+    <string name="no_offer_available">No offer available</string>
+    <string name="posting_comment_failed">Posting comment failed</string>
+    <string name="retrieval_failed">Comments retrieval failed</string>
+    <string name="fb_check_failed">facebook checking failed</string>
+    <string name="request_failed">Request Failed</string>
+    <string name="swipe_for_filters">SWIPE FOR FILTERS</string>
+    <string name="comment_cannot_be_blank">Text is required.</string>
+    <string name="retake_image">Retake Image</string>
+    <string name="retake_video">Retake Video</string>
+    <string name="enter_category">Category</string>
+    <string name="movv_it">MOV it</string>
+    <string name="you_cannot">You cannot delete others Comment</string>
+    <string name="report_abuse">Report Abuse</string>
+    <string name="copy_share_link">Copy Share Link</string>
+    <string name="thank_you_for_reporting">Thank you for reporting !</string>
+    <string name="we_investigate">We investigate every report.</string>
+    <string name="video_downloading_msg">Downloading video,please wait....</string>
+    <string name="sort_by">Sort by : Alphabet</string>
+
+    <string-array name="filter_list">
+
+        <item>Alphabet</item>
+        <item>Meet/Ship</item>
+        <item>Time</item>
+        <item>Price</item>
+
+    </string-array>
+
+    <string name="sharing_image_please_wait">Sharing image,please wait....</string>
+    <string name="review_given">reviews given</string>
+    <string name="your_money">Your money will not be put in escrow until your offer is accepted</string>
+    <string name="poweredPaypal">Powered By Paypal</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="offer_to_meet">Offer to Meet or Ship</string>
+    <string name="please_enter_proper_date">Please Enter Valid Date</string>
+    <string name="enter_valid_cardDetails">Enter Valid Card Details</string>
+    <string name="we_only_accept_debit_cards">We only accept Credit cards</string>
+    <string name="please_enter_valid_number">Enter valid card number</string>
+    <string name="no_msg_app">Messaging app not Installed</string>
+
+
+    <string-array name="Categories">
+
+        <item>Animals</item>
+        <item>Bags</item>
+        <item>Books</item>
+        <item>Cars &amp; Motors</item>
+        <item>Clothes</item>
+        <item>Furniture</item>
+        <item>Games</item>
+        <item>Health &amp; Fitness</item>
+        <item>Home</item>
+        <item>Jewelry</item>
+        <item>Makeup</item>
+        <item>Movies/ books</item>
+        <item>Music</item>
+        <item>Shoes</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Transportation</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <integer-array name="Categories_id">
+        <item>0</item>
+        <item>1</item>
+        <item>11</item>
+        <item>2</item>
+        <item>12</item>
+        <item>3</item>
+        <item>4</item>
+        <item>13</item>
+        <item>14</item>
+        <item>5</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>6</item>
+        <item>18</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>9</item>
+    </integer-array>
+
+
+</resources>
