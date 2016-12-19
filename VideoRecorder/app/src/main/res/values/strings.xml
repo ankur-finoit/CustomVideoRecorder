@@ -544,6 +544,10 @@
     <string name="we_only_accept_debit_cards">We only accept Credit cards</string>
     <string name="please_enter_valid_number">Enter valid card number</string>
     <string name="no_msg_app">Messaging app not Installed</string>
+    <string name="keep_pressing">Long Press the green buton to record the video.</string>
+    <string name="merging">Merging Video</string>
+    <string name="click_again">Click again to record the video</string>
+    <string name="video_not_merged_properly">Video not merged properly.</string>
 
 
     <string-array name="Categories">

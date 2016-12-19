@@ -2,10 +2,11 @@ package com.app.videorecorder;
 
 import android.app.Application;
 
-/**
- * Created by emp118 on 11/29/2016.
- */
+import com.app.videorecorder.view.StatusBarData;
 
+/**
+ * Created by Ankur Parashar on 11/29/2016.
+ */
 public class MainApplication extends Application {
 
     private static StatusBarData mStatusBarData;
@@ -15,7 +16,6 @@ public class MainApplication extends Application {
         super.onCreate();
     }
 
-
     public static StatusBarData getStatusBarData() {
         return mStatusBarData;
     }
@@ -23,4 +23,5 @@ public class MainApplication extends Application {
     public static void setStatusBarData(StatusBarData mStatusBarData) {
         MainApplication.mStatusBarData = mStatusBarData;
     }
+
 }

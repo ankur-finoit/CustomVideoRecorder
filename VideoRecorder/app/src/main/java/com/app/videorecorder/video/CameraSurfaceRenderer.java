@@ -5,8 +5,9 @@ import android.opengl.EGL14;
 import android.opengl.GLSurfaceView;
 import android.util.Log;
 
-import com.app.videorecorder.AbstractCameraActivity;
-import com.app.videorecorder.FrontAbstractCameraActivity;
+import com.app.videorecorder.activity.AbstractCameraActivity;
+import com.app.videorecorder.activity.BaseActivity;
+import com.app.videorecorder.activity.FrontAbstractCameraActivity;
 import com.app.videorecorder.gles.FullFrameRect;
 import com.app.videorecorder.gles.Texture2dProgram;
 
@@ -22,6 +23,7 @@ import javax.microedition.khronos.opengles.GL10;
  * GLSurfaceView#queueEvent() call.
  */
 public class CameraSurfaceRenderer implements GLSurfaceView.Renderer {
+
     private static final String TAG = CameraSurfaceRenderer.class.getName();
     private static final boolean VERBOSE = false;
 
@@ -50,26 +52,6 @@ public class CameraSurfaceRenderer implements GLSurfaceView.Renderer {
 
     private boolean filterApplied = false;
 
-    /**
-     * Constructs CameraSurfaceRenderer.
-     * <p>
-     *
-     * @param cameraHandler Handler for communicating with UI thread
-     * @param movieEncoder  video encoder object
-     */
-    public CameraSurfaceRenderer(AbstractCameraActivity.BackCameraHandler cameraHandler,
-                                 TextureMovieEncoder movieEncoder) {
-        mCameraHandlerBack = cameraHandler;
-        mVideoEncoder = movieEncoder;
-
-        mTextureId = -1;
-
-        mRecordingStatus = -1;
-        mRecordingEnabled = false;
-
-        mIncomingSizeUpdated = false;
-        mIncomingWidth = mIncomingHeight = -1;
-    }
 
     /**
      * Constructs CameraSurfaceRenderer.
@@ -78,7 +60,7 @@ public class CameraSurfaceRenderer implements GLSurfaceView.Renderer {
      * @param cameraHandler Handler for communicating with UI thread
      * @param movieEncoder  video encoder object
      */
-    public CameraSurfaceRenderer(FrontAbstractCameraActivity.BackCameraHandler cameraHandler,
+    public CameraSurfaceRenderer(BaseActivity.BackCameraHandler cameraHandler,
                                  TextureMovieEncoder movieEncoder) {
         mCameraHandlerFront = cameraHandler;
         mVideoEncoder = movieEncoder;
@@ -247,7 +229,8 @@ public class CameraSurfaceRenderer implements GLSurfaceView.Renderer {
                 case RECORDING_RESUMED:
                     // stop recording
                     Log.d(TAG, "STOP recording");
-                    mVideoEncoder.stopRecording();
+                    if(mVideoEncoder!=null)
+                      mVideoEncoder.stopRecording();
                     mRecordingStatus = RECORDING_OFF;
                     break;
                 case RECORDING_OFF:

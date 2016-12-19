@@ -22,5 +22,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.googlecode.mp4parser:isoparser:1.0.5.4'
-    compile 'com.splunk.mint:mint:5.0.0'
 }

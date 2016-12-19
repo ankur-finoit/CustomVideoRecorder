@@ -47,11 +47,12 @@
         android:paddingLeft="@dimen/padding_large_xx"
         android:paddingRight="@dimen/padding_large_xx"
         android:paddingTop="@dimen/padding_medium_x"
-        android:text="Record Video"
+        android:text="@string/keep_pressing"
         android:textColor="@android:color/white"
-        android:visibility="gone" />
+        android:visibility="gone"
+        />
 
-    <com.app.videorecorder.StatusBarIndicator
+    <com.app.videorecorder.view.StatusBarIndicator
         android:id="@+id/statusBarIndicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
