@@ -198,7 +198,7 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    /*This method is used to show the dialog box in the at the starting of camera*/
+    /*This function is used to show the dialog box at the starting of camera*/
     public void showDialogStyle(int step) {
 
         final Dialog dialog;
@@ -228,7 +228,7 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
             });
 
         }
-        else if (step == 2) {
+        /*else if (step == 2) {
 
             dialog = new Dialog(this, R.style.CustomDialogTheme2);
             dialog.setContentView(R.layout.dialog_video_step_guid_2);
@@ -252,7 +252,7 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
                 }
             });
 
-        }
+        }*/
 
     }
 
