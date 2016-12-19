@@ -1,6 +1,6 @@
 # CustomVideoRecorder
 
-This library is being written for recodring a video using Front and Back camera.
+This library is being written for recording a video using Front and Rear camera.
 
 
 * Default Video length is 15 seconds.
